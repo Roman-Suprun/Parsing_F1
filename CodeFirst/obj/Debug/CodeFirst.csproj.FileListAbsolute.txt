@@ -1,0 +1,11 @@
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\bin\Debug\CodeFirst.dll.config
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\bin\Debug\CodeFirst.dll
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\bin\Debug\CodeFirst.pdb
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\obj\Debug\CodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\obj\Debug\CodeFirst.dll
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\obj\Debug\CodeFirst.pdb
+C:\Users\supra\OneDrive\Рабочий стол\Parsing(ASP.NET_MVC)\CodeFirst\obj\Debug\CodeFirst.csprojResolveAssemblyReference.cache

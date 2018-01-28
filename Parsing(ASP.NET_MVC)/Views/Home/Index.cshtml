@@ -1,0 +1,72 @@
+﻿
+@model CodeFirst.Collection
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //Layout = null;
+    ViewBag.Title = "DemoExpression";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet"  href="/Content/Styles/MainStyle.css"/>
+</head>
+<body>
+    <div>
+      
+        <br />
+        <br />
+
+        <table class="myTable">
+            <thead class="thead">
+                <tr>
+                    
+                    <th><abbr title="Position">Pos</abbr></th>
+                    <th class="hide-for-mobile"><abbr title="Number">No</abbr></th>
+                    <th>Driver</th>
+                    <th class=" hide-for-tablet">Car</th>
+                    <th class=" hide-for-mobile">Laps</th>
+                    <th>Time/Retired</th>
+                    <th><abbr title="Points">Pts</abbr></th>
+                    
+                </tr>
+            </thead>
+
+            @for(int i=0; i < 20; i++)
+            {
+               
+                <tr>
+                    @for (int j = 0; j < 7; j++)
+                    {
+                        <td>
+                            @Model.CoList[j][i]
+                        </td>
+                    }
+                </tr>
+                
+            }
+        
+
+    </table>
+
+    
+
+
+    <br />
+    @using (Html.BeginForm("Save", "Home", FormMethod.Post))
+    {
+
+
+        <button type="submit" name="button">ok</button>
+    }
+
+
+    @*<a href="@Url.Action("Save", "Home")"><button type="submit" name="button">ok</button></a>*@
+
+    </div>
+</body>
+</html>

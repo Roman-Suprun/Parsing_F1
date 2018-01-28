@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="/Content/Styles/MainStyle.css" />
+</head>
+<body>
+<div>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <a>Parsing link - </a>
+        <input id="ParsingLink" type="text" name="ParsingLink" value="https://www.formula1.com/en/results.html/2017/races/970/belgium/race-result.html" />
+        <button type="submit">ok</button>
+    }
+
+    @RenderBody()
+    
+    <br/>
+    <br/>
+    
+    
+    
+
+</div>
+</body>
+</html>

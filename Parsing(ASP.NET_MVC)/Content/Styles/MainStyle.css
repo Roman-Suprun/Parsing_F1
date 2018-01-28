@@ -1,0 +1,16 @@
+﻿body {
+}
+
+#ParsingLink {
+    width: 1000px;
+    color: dodgerblue;
+}
+
+.thead{
+    margin: 0;
+    padding: 0;
+}
+
+.myTable tr:nth-child(odd){
+    background: #f4f4f4;
+}
